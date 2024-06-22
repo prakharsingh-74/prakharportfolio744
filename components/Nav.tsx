@@ -7,15 +7,14 @@ interface Props {
 
 const Nav = ({ openNav }: Props) => {
   return (
-    <div className="w-[100%] top-0 h-[12vh] bg-[#141c27] shadow-md">
+    <div className="w-[100%] sticky z-[10000] top-0 h-[12vh] bg-[#141c27] shadow-md z-10 fixed">
       <div className="flex items-center justify-between w-[80%] mx-auto h-[100%]">
         <h1 className="flex-[0.6] cursor-pointer text-[25px] text-white font-bold">
-          WEB
-          <span className="text-yellow-300">DEV</span>
+          PRAKHAR'S
+          <span className="text-yellow-300"> PORTFOLIO</span>
         </h1>
-        <div className="hidden md:flex space-x-4">
+        <div className="hidden md:flex space-x-9">
           <div className="nav-link text-white">HOME</div>
-          <div className="nav-link text-white">SERVICES</div>
           <div className="nav-link text-white">ABOUT</div>
           <div className="nav-link text-white">PROJECT</div>
           <div className="nav-link text-white">BLOG</div>
