@@ -1,6 +1,6 @@
+import Nav from '@/components/Nav';
 import MobileNav from '@/components/MobileNav';
-import Nav from '@/components/Nav'
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 
 const Homepage = () => {
   const [nav, setNav] = useState(false);
