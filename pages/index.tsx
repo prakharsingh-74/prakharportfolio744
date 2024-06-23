@@ -47,15 +47,34 @@ const Homepage = () => {
   return (
     <div className='overflow-x-hidden'>
       <div>
-        <MobileNav nav={nav} closeNav={closeNav}/>
-        <Nav openNav={openNav}/>
+        <MobileNav nav={nav} closeNav={closeNav} />
+        <Nav openNav={openNav} />
         <Hero />
-        <div className='realtive z-[30]'>
-            <About/>
+        <div className='relative z-[30]'>
+          {/* About Section */}
+          <div id="about">
+            <About />
+          </div>
+
+          {/* Skills Section */}
+          <div id="skills">
             <Skills />
-            <Project/>
-            <Certifications/>
-            <Footer/>
+          </div>
+
+          {/* Project Section */}
+          <div id="project">
+            <Project />
+          </div>
+
+          {/* Certifications Section */}
+          <div id="certifications">
+            <Certifications />
+          </div>
+
+          {/* Footer Section */}
+          <div id="footer">
+            <Footer />
+          </div>
         </div>
       </div>
     </div>

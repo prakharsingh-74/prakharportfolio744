@@ -14,12 +14,12 @@ const Nav = ({ openNav }: Props) => {
           <span className="text-yellow-300"> PORTFOLIO</span>
         </h1>
         <div className="hidden md:flex space-x-9">
-          <div className="nav-link text-white">HOME</div>
-          <div className="nav-link text-white">ABOUT</div>
-          <div className="nav-link text-white">EXPERIENCES & SKILLS</div>
-          <div className="nav-link text-white">PROJECT</div>
-          <div className="nav-link text-white">CERTIFICATIONS</div>
-          <div className="nav-link text-white">CONTACT</div>
+          <a href="#home" className="nav-link text-white">HOME</a>
+          <a href="#about" className="nav-link text-white">ABOUT</a>
+          <a href="#skills" className="nav-link text-white">EXPERIENCES & SKILLS</a>
+          <a href="#project" className="nav-link text-white">PROJECT</a>
+          <a href="#certifications" className="nav-link text-white">CERTIFICATIONS</a>
+          <a href="#footer" className="nav-link text-white">CONTACT</a>
         </div>
         <div className="md:hidden" onClick={openNav}>
           <Bars3Icon className="w-[2rem] h-[2rem] cursor-pointer text-yellow-300"/>
