@@ -5,6 +5,7 @@ import Hero from '@/components/Hero';
 import About from '@/components/About';
 import Skills from '@/components/Skill';
 import Project from '@/components/project'
+import Certifications from '@/components/certifications';
 
 const Homepage = () => {
   const [nav, setNav] = useState(false);
@@ -21,6 +22,7 @@ const Homepage = () => {
             <About/>
             <Skills />
             <Project/>
+            <Certifications/>
         </div>
       </div>
     </div>
