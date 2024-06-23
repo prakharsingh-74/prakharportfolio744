@@ -35,11 +35,11 @@ const Hero = () => {
                 <ArrowDownTrayIcon className="w-6 h-6 text-black" />
               </button>
             </div>
-            <SocialButtons />
+            <SocialButtons /> {/* Add SocialButtons component here */}
           </div>
 
           {/* Image */}
-          <div className="hidden lg:flex items-center justify-center lg:justify-start lg:ml-14 w-[500px] h-[500px] rounded-full overflow-hidden">
+          <div className="hidden lg:flex items-center justify-center lg:justify-start lg:ml-14 w-[400px] h-[400px] rounded-full overflow-hidden">
             <img
               src="/images/u1.jpg"
               alt="user"
