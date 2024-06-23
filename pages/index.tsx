@@ -3,6 +3,7 @@ import MobileNav from '@/components/MobileNav';
 import React, { useState } from 'react';
 import Hero from '@/components/Hero';
 import About from '@/components/About';
+import Skills from '@/components/Skill';
 
 const Homepage = () => {
   const [nav, setNav] = useState(false);
@@ -17,6 +18,7 @@ const Homepage = () => {
         <Hero />
         <div className='realtive z-[30]'>
             <About/>
+            <Skills />
         </div>
       </div>
     </div>

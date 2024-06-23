@@ -17,7 +17,7 @@ const Hero = () => {
       <ParticlesComponent />
 
       {/* Main content */}
-      <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center">
+      <div className="absolute top-12 left-0 w-full h-full flex items-center justify-center">
         <div className="w-[90%] lg:w-[80%] grid grid-cols-1 lg:grid-cols-2 gap-12 text-center text-white">
           
           {/* Text content */}
@@ -39,7 +39,7 @@ const Hero = () => {
           </div>
 
           {/* Image */}
-          <div className="hidden lg:flex items-center justify-center lg:justify-start lg:ml-14 w-[400px] h-[400px] rounded-full overflow-hidden">
+          <div className="hidden lg:flex items-center justify-center lg:justify-start lg:ml-14 w-[500px] h-[500px] rounded-full overflow-hidden">
             <img
               src="/images/u1.jpg"
               alt="user"

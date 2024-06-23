@@ -16,6 +16,7 @@ const Nav = ({ openNav }: Props) => {
         <div className="hidden md:flex space-x-9">
           <div className="nav-link text-white">HOME</div>
           <div className="nav-link text-white">ABOUT</div>
+          <div className="nav-link text-white">EXPERIENCES & SKILLS</div>
           <div className="nav-link text-white">PROJECT</div>
           <div className="nav-link text-white">BLOG</div>
           <div className="nav-link text-white">CONTACT</div>
