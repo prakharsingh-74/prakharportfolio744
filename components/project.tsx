@@ -29,7 +29,7 @@ const projects = [
 
 const Project = () => {
   return (
-    <div data-aos="fade-up" data-aos-delay="400" className="bg-[#02050a] py-12 md:pt-24 md:pb-8">
+    <div data-aos="fade-up" data-aos-delay="100" className="bg-[#02050a] py-12 md:pt-24 md:pb-8">
       <div className="w-[80%] mx-auto">
         <h1 className="text-3xl md:text-4xl font-bold text-white mb-8 text-center">My <span className="text-yellow-400"> Projects</span></h1>
         

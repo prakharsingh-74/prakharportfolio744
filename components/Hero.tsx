@@ -28,11 +28,11 @@ const Hero = () => {
           {/* Text content */}
           <div data-aos="flip-up" data-aos-delay="300" className="flex flex-col items-center lg:items-start lg:pr-8 space-y-6">
             <h1 className="text-4xl md:text-6xl font-bold mb-4">
-              HI, I'M <span className="text-yellow-400">PRAKHAR!</span>
+              HI, I&apos;M <span className="text-yellow-400">PRAKHAR!</span>
             </h1>
             <TextEffect />
             <p className="mt-4 text-lg text-[#ffffff92] text-center lg:text-left">
-            Passionate Computer Science Engineer | AI & ML Enthusiast | Content Creator | Helping Brands Transform with Technology | Creative Content Creator | Esports Athlete
+            Passionate Computer Science Engineer | AI &amp; ML Enthusiast | Content Creator | Helping Brands Transform with Technology | Creative Content Creator | Esports Athlete
             </p>
             <div className="mt-6 flex flex-col sm:flex-row items-center space-y-4 sm:space-y-0 sm:space-x-4">
               <button onClick={handleDownloadResume} className="px-6 py-3 text-lg font-bold uppercase bg-[#55e6a5] text-black hover:bg-yellow-400 transition duration-200 flex items-center space-x-2">
