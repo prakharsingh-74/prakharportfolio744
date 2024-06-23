@@ -4,8 +4,13 @@ import TextEffect from './TextEffect';
 import SocialButtons from './social';
 import { ArrowDownTrayIcon } from '@heroicons/react/20/solid';
 
+const resumeUrl = "https://docs.google.com/document/d/1Sz652Td71dp_lbqJukeyaBxGPF652vBrH4gPie4Qf2k/edit?usp=sharing";
+
 const Hero = () => {
+  const handleDownloadResume = () => {
+    window.open(resumeUrl, '_blank');};
   return (
+    
     <div className="relative h-screen overflow-hidden">
       {/* Background image */}
       <div
@@ -30,7 +35,7 @@ const Hero = () => {
             Passionate Computer Science Engineer | AI & ML Enthusiast | Content Creator | Helping Brands Transform with Technology | Creative Content Creator | Esports Athlete
             </p>
             <div className="mt-6 flex flex-col sm:flex-row items-center space-y-4 sm:space-y-0 sm:space-x-4">
-              <button className="px-6 py-3 text-lg font-bold uppercase bg-[#55e6a5] text-black hover:bg-yellow-400 transition duration-200 flex items-center space-x-2">
+              <button onClick={handleDownloadResume} className="px-6 py-3 text-lg font-bold uppercase bg-[#55e6a5] text-black hover:bg-yellow-400 transition duration-200 flex items-center space-x-2">
                 <p>Download Resume</p>
                 <ArrowDownTrayIcon className="w-6 h-6 text-black" />
               </button>

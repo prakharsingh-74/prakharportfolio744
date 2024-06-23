@@ -1,10 +1,13 @@
 import React from 'react';
-
 import TextEffect from './TextEffect';
 import { ArrowDownTrayIcon } from '@heroicons/react/20/solid';
 import Image from 'next/image';
 
+const resumeUrl = "https://docs.google.com/document/d/1Sz652Td71dp_lbqJukeyaBxGPF652vBrH4gPie4Qf2k/edit?usp=sharing";
+
 const About = () => {
+  const handleDownloadResume = () => {
+    window.open(resumeUrl, '_blank');};
     return (
       <div className='bg-[#121121] pb-[3rem] pt-[4rem] md:pt-[8rem]'>
         <a href="#about"></a>
@@ -23,7 +26,7 @@ const About = () => {
               </p>
             </div>
             <div className="mt-8 flex flex-col sm:flex-row items-center space-y-6 sm:space-y-0 sm:space-x-6">
-              <button className="px-8 py-4 text-lg font-bold uppercase bg-[#55e6a5] text-black hover:bg-yellow-400 transition duration-200 flex items-center space-x-2">
+              <button onClick={handleDownloadResume} className="px-8 py-4 text-lg font-bold uppercase bg-[#55e6a5] text-black hover:bg-yellow-400 transition duration-200 flex items-center space-x-2">
                 <p>Download Resume</p>
                 <ArrowDownTrayIcon className="w-6 h-6 text-black" />
               </button>
