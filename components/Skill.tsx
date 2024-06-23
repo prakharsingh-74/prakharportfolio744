@@ -43,7 +43,7 @@ const Skills: React.FC = () => {
         <h1 className="text-3xl md:text-4xl font-bold text-white mb-8 text-center">My Experiences <span className='text-yellow-400'>& Skills</span></h1>
         
         {/* Experiences Section */}
-        <div className="mb-12">
+        <div data-aos="flip-left" data-aos-delay="250" className="mb-12">
           <h2 className="text-2xl font-semibold text-[#55e6a5] mb-4 text-center">Experiences</h2>
           <div className="space-y-6">
             {experiences.map((experience, index) => (
@@ -58,7 +58,7 @@ const Skills: React.FC = () => {
         </div>
         
         {/* Skills Section */}
-        <div>
+        <div data-aos="flip-right" data-aos-delay="250">
           <h2 className="text-2xl font-semibold text-[#55e6a5] mb-4 text-center">Skills</h2>
           <div className="space-y-6">
             {skills.map((skill, index) => (

@@ -7,7 +7,7 @@ import Image from 'next/image';
 const About = () => {
     return (
       <div className='bg-[#121121] pb-[3rem] pt-[4rem] md:pt-[8rem]'>
-        <div className='grid grid-cols-1 md:grid-cols-2 w-[80%] mx-auto gap-[3rem] items-center'>
+        <div data-aos="zoom-in-up" className='grid grid-cols-1 md:grid-cols-2 w-[80%] mx-auto gap-[3rem] items-center'>
           <div>
             <h1 className='text-[20px] font-bold uppercase text-[#55e6a5] mb-[1rem]'>
               ABOUT ME
@@ -30,7 +30,7 @@ const About = () => {
           </div>
 
           {/* Image */}
-          <div className='lg:w-[500px] mx-auto md:mx-0 mt-[2rem] lg:mt-0 lg:h-[300px] w-[300px] h-[300px] relative'>
+          <div data-aos="fade-left" className='lg:w-[500px] mx-auto md:mx-0 mt-[2rem] lg:mt-0 lg:h-[300px] w-[300px] h-[300px] relative'>
             <Image src="/images/about.jpg" alt="user" layout="fill" objectFit='contain' className='relative z-[11] w-[100%] h-[100%] object-contain' />
           
           <div className='absolute w-[60%] h-[90%] z-[10] bg-[#55e6a5] top-[-2rem] right-[4rem]'>

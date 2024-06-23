@@ -21,7 +21,7 @@ const Hero = () => {
         <div className="w-[90%] lg:w-[80%] grid grid-cols-1 lg:grid-cols-2 gap-8 text-center text-white">
           
           {/* Text content */}
-          <div className="flex flex-col items-center lg:items-start lg:pr-8 space-y-6">
+          <div data-aos="flip-up" data-aos-delay="300" className="flex flex-col items-center lg:items-start lg:pr-8 space-y-6">
             <h1 className="text-4xl md:text-6xl font-bold mb-4">
               HI, I'M <span className="text-yellow-400">PRAKHAR!</span>
             </h1>
@@ -39,7 +39,7 @@ const Hero = () => {
           </div>
 
           {/* Image */}
-          <div className="hidden lg:flex items-end justify-end w-full h-[400px] overflow-hidden">
+          <div data-aos="zoom-in" className="hidden lg:flex items-end justify-end w-full h-[400px] overflow-hidden">
             <img
               src="/images/u1.jpg"
               alt="user"

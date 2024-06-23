@@ -6,7 +6,7 @@ const certifications = [
     id: 1,
     title: 'JWOC Open Source',
     image: '/images/cc1.png',
-    description: 'Certified by React Academy',
+    description: 'Certified by JGEC college',
   },
   {
     id: 2,
