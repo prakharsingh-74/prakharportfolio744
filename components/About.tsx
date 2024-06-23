@@ -18,7 +18,7 @@ const About = () => {
             <div className='mb-[3rem] flex items-center md:space-x-10'>
               <span className='w-[100px] hidden md:block h-[5px] bg-slate-400 rounded-sm'></span>
               <p className='text-[19px] text-slate-300 w-[80%]'>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem beatae natus ipsam ipsa totam sapiente blanditiis debitis. Porro, ab pariatur?
+              I am an Engineering student specialized in Computer Science and Engineering with Artificial Intelligence and Machine Learning. I completed Javascript, Typescript, UI Designing and various technologies with hardware coding too.
               </p>
             </div>
             <div className="mt-8 flex flex-col sm:flex-row items-center space-y-6 sm:space-y-0 sm:space-x-6">
@@ -30,7 +30,7 @@ const About = () => {
           </div>
 
           {/* Image */}
-          <div className='lg:w-[500px] mx-auto md:mx-0 mt-[2rem] lg:mt-0 lg:h-[500px] w-[300px] h-[300px] relative'>
+          <div className='lg:w-[500px] mx-auto md:mx-0 mt-[2rem] lg:mt-0 lg:h-[300px] w-[300px] h-[300px] relative'>
             <Image src="/images/about.jpg" alt="user" layout="fill" objectFit='contain' className='relative z-[11] w-[100%] h-[100%] object-contain' />
           
           <div className='absolute w-[100%] h-[100%] z-[10] bg-[#55e6a5] top-[-2rem] right-[-2rem]'>

@@ -18,7 +18,7 @@ const Nav = ({ openNav }: Props) => {
           <div className="nav-link text-white">ABOUT</div>
           <div className="nav-link text-white">EXPERIENCES & SKILLS</div>
           <div className="nav-link text-white">PROJECT</div>
-          <div className="nav-link text-white">BLOG</div>
+          <div className="nav-link text-white">CERTIFICATIONS</div>
           <div className="nav-link text-white">CONTACT</div>
         </div>
         <div className="md:hidden" onClick={openNav}>

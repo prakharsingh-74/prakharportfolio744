@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaInstagram, FaMedium } from 'react-icons/fa';
 
 const socialbuttons = () => {
   return (
@@ -32,6 +32,16 @@ const socialbuttons = () => {
         className="p-3 bg-pink-500 rounded-full hover:bg-pink-400 transition duration-300"
       >
         <FaInstagram className="text-white w-6 h-6" />
+      </a>
+
+      {/* Medium */}
+      <a
+        href="https://medium.com/@prakharsingh.bz3"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="p-3 bg-gray-800 rounded-full hover:bg-gray-600 transition duration-300"
+      >
+        <FaMedium className="text-white w-6 h-6" />
       </a>
     </div>
   );

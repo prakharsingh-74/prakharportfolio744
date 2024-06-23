@@ -14,11 +14,11 @@ interface Experience {
 
 const skills: Skill[] = [
   { name: 'React js & Next js', level: 80 },
-  { name: 'Javascript', level: 85 },
+  { name: 'Javascript & Typescript', level: 85 },
   { name: 'Figma & Premiere Pro', level: 80 },
   { name: 'Version Control', level: 75 },
   { name: 'Node.js', level: 70 },
-  { name: 'Drone Building and Troubleshooting', level: 75 },
+  { name: 'Drone Building and Troubleshooting', level: 79 },
 ];
 
 const experiences: Experience[] = [

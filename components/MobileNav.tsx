@@ -15,7 +15,7 @@ const MobileNav = ({ nav, closeNav }: Props) => {
         <div className='nav-link-mobile'>ABOUT</div>
         <div className='nav-link-mobile'>EXPERIENCES & SKILLS</div>
         <div className='nav-link-mobile'>PROJECT</div>
-        <div className='nav-link-mobile'>BLOG</div>
+        <div className='nav-link-mobile'>CERTIFICATIONS</div>
         <div className='nav-link-mobile'>CONTACT</div>
       </div>
       <div onClick={closeNav} className='absolute z-[100000000] cursor-pointer top-[2rem] right-[2rem] w-[2rem] h-[2rem] text-yellow-400'>
