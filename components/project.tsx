@@ -20,7 +20,7 @@ const projects = [
   {
     id: 3,
     image: "/images/p3.jpg",
-    alt: "MERN Stack Chat App",
+    alt: "Vital Care: Healthcare consulting platform",
     githubLink: "https://github.com/prakharsingh-74/chatapp",
     deployLink: "https://yourdeployedlink1.com"
   },
