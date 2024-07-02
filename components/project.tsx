@@ -16,15 +16,7 @@ const projects = [
     alt: "Video Player Automation",
     githubLink: "https://github.com/prakharsingh-74/videoplayerautomation",
     deployLink: "https://yourdeployedlink1.com"
-  },
-  {
-    id: 3,
-    image: "/images/p3.jpg",
-    alt: "Vital Care: Healthcare consulting platform",
-    githubLink: "https://github.com/prakharsingh-74/chatapp",
-    deployLink: "https://yourdeployedlink1.com"
-  },
-  
+  },  
 ];
 
 const Project = () => {
