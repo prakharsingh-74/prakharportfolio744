@@ -18,7 +18,7 @@ const skills: Skill[] = [
   { name: 'Figma & Canva', level: 80 },
   { name: 'Version Control', level: 75 },
   { name: 'Node.js', level: 70 },
-  { name: 'Drone Building & Troubleshooting', level: 79 },
+  { name: 'Drone Building', level: 79 },
 ];
 
 const experiences: Experience[] = [

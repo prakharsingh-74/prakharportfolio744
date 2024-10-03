@@ -16,6 +16,19 @@ const projects = [
     alt: "Video Player Automation",
     githubLink: "https://github.com/prakharsingh-74/videoplayerautomation",
     deployLink: "https://yourdeployedlink1.com"
+  },
+  {
+    id: 3,
+    image: "/images/p3.jpg",
+    alt: "Video Conferencing Webapp",
+    githubLink: "https://github.com/rishisingh34/LinkUp",
+    deployLink: "https://link-up24.vercel.app/"
+  },
+  {
+    id: 4,
+    image: "/images/p4.jpg",
+    alt: "Zomato Data Analysis",
+    githubLink: "https://github.com/prakharsingh-74/zomato-data-analysis-project",
   },  
 ];
 
