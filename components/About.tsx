@@ -22,7 +22,7 @@ const About = () => {
             <div className='mb-[3rem] flex items-center md:space-x-10'>
               <span className='w-[100px] hidden md:block h-[5px] bg-slate-400 rounded-sm'></span>
               <p className='text-[19px] text-slate-300 w-[80%]'>
-              I am an Engineering student specialized in Computer Science and Engineering with Artificial Intelligence and Machine Learning. I completed Javascript, Typescript, UI Designing and various technologies with hardware coding too.
+              Fullstack Developer with expertise in building responsive web applications, deploying machine learning models, and performing data analysis for actionable insights. Experienced in object detection model deployment and predictive analytics. Active Open Source Contributor, fostering innovation in the tech community through collaborative contributions.
               </p>
             </div>
             <div className="mt-8 flex flex-col sm:flex-row items-center space-y-6 sm:space-y-0 sm:space-x-6">
