@@ -17,7 +17,7 @@ const Nav = ({ openNav }: Props) => {
           <a href="#home" className="nav-link text-white">HOME</a>
           <a href="#about" className="nav-link text-white">ABOUT</a>
           <a href="#skills" className="nav-link text-white">EXPERIENCES &amp; SKILLS</a>
-          <a href="#project" className="nav-link text-white">PROJECT</a>
+          <a href="#project" className="nav-link text-white">PROJECTS</a>
           <a href="#certifications" className="nav-link text-white">CERTIFICATIONS</a>
           <a href="#footer" className="nav-link text-white">CONTACT</a>
         </div>
