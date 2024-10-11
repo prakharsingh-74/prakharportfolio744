@@ -4,7 +4,7 @@ import TextEffect from './TextEffect';
 import SocialButtons from './social';
 import { ArrowDownTrayIcon } from '@heroicons/react/20/solid';
 
-const resumeUrl = "https://docs.google.com/document/d/1Sz652Td71dp_lbqJukeyaBxGPF652vBrH4gPie4Qf2k/edit?usp=sharing";
+const resumeUrl = "https://drive.google.com/file/d/10KjAd1NEXmdmmY_SYbQhkQhBs9zkdrxC/view?usp=sharing";
 
 const Hero = () => {
   const handleDownloadResume = () => {
