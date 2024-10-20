@@ -16,7 +16,7 @@ const certifications = [
   },
   {
     id: 3,
-    title: 'CSS(Basic)',
+    title: 'React(Basic)',
     image: '/images/cc3.png',
     description: 'Certified by Hackerrank',
   },
@@ -37,7 +37,7 @@ const Certifications: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
           {certifications.map((certification) => (
             <div key={certification.id} className="relative overflow-hidden rounded-lg bg-gray-800 hover:transform hover:scale-105 transition-transform duration-300">
-              <div className="relative w-full pt-[75%]"> {/* 4:3 Aspect Ratio */}
+              <div className="relative w-full pt-[75%]">
                 <Image src={certification.image} alt={certification.title} layout="fill" objectFit="cover" className="absolute top-0 left-0 w-full h-full object-cover rounded-lg" />
               </div>
               <div className="p-4 text-white">
