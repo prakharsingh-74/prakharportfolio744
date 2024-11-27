@@ -3,7 +3,7 @@ import TextEffect from './TextEffect';
 import { ArrowDownTrayIcon } from '@heroicons/react/20/solid';
 import Image from 'next/image';
 
-const resumeUrl = "https://drive.google.com/file/d/1jHO9_xnQ7F2p1drGVSiscs0UnwaEtxG6/view?usp=sharing";
+const resumeUrl = "https://drive.google.com/file/d/1kFrz3YO4LwLvEtHrqFLUZW8oRd-EK7TX/view?usp=sharing";
 
 const About = () => {
   const handleDownloadResume = () => {
